@@ -11,7 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property(nonatomic, assign) BOOL isForcePortrait;
+@property(nonatomic, assign) BOOL isForceLandscape;
 
 @end
 

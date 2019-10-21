@@ -15,6 +15,7 @@
 		3253DB2E235DD9D8001D800B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253DB2D235DD9D8001D800B /* main.m */; };
 		3253DB38235DD9D8001D800B /* RotateViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253DB37235DD9D8001D800B /* RotateViewTests.m */; };
 		3253DB43235DD9D8001D800B /* RotateViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253DB42235DD9D8001D800B /* RotateViewUITests.m */; };
+		3253DB58235DDE44001D800B /* HONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253DB56235DDE44001D800B /* HONavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3253DB3E235DD9D8001D800B /* RotateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3253DB42235DD9D8001D800B /* RotateViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewUITests.m; sourceTree = "<group>"; };
 		3253DB44235DD9D8001D800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3253DB56235DDE44001D800B /* HONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HONavigationController.m; sourceTree = "<group>"; };
+		3253DB57235DDE44001D800B /* HONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HONavigationController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3253DB1D235DD9D7001D800B /* RotateView */ = {
 			isa = PBXGroup;
 			children = (
+				3253DB57235DDE44001D800B /* HONavigationController.h */,
+				3253DB56235DDE44001D800B /* HONavigationController.m */,
 				3253DB1E235DD9D7001D800B /* AppDelegate.h */,
 				3253DB1F235DD9D7001D800B /* AppDelegate.m */,
 				3253DB21235DD9D7001D800B /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				3253DB23235DD9D7001D800B /* ViewController.m in Sources */,
 				3253DB2E235DD9D8001D800B /* main.m in Sources */,
+				3253DB58235DDE44001D800B /* HONavigationController.m in Sources */,
 				3253DB20235DD9D7001D800B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UKCH28MMH;
 				INFOPLIST_FILE = RotateView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UKCH28MMH;
 				INFOPLIST_FILE = RotateView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
